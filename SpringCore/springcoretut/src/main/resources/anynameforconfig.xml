@@ -7,7 +7,7 @@
 
     <!-- <bean/> definitions here -->
 
-    <bean class="com.nabajyoti.springcoretut.Student" name="student1" >
+    <bean class="com.nabajyoti.springcoretut.Student" name="student1" init-method="init" >
         <property name="studentId">
             <value>11500119044</value>
         </property>
@@ -16,6 +16,18 @@
         </property>
         <property name="studentAddress">
             <value>Tripura</value>
+        </property>
+    </bean>
+
+    <bean class="com.nabajyoti.springcoretut.Teacher" name="teacher1" destroy-method="destroy">
+        <property name="teacherId">
+            <value>456</value>
+        </property>
+        <property name="teacherName">
+            <value>Papai</value>
+        </property>
+        <property name="teacherAddress">
+            <value>Meghalay</value>
         </property>
     </bean>
     
