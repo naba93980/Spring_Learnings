@@ -8,13 +8,23 @@
                         http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
 
-    <context:annotation-config></context:annotation-config>
-    <context:component-scan base-package="com.naba.springmvc.fc1" />
+<!--                                                    REPLACED BY FCONEConfig class                                            -->
+
+    <!-- <context:annotation-config></context:annotation-config>
+    <context:component-scan base-package="com.naba.springmvc.fc1" /> -->
+
+
+    <!-- <bean id="addService" class="com.naba.springmvc.fc1.service.AddService" />
+
+    
+    <bean id="addController" class="com.naba.springmvc.fc1.AddController">
+        <constructor-arg index="0" ref="addService"/>
+    </bean>
+
 
     <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/views/" />
         <property name="suffix" value=".jsp" />
-    </bean>
-    
+    </bean> -->
 
 </beans>
