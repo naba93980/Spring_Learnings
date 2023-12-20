@@ -30,14 +30,14 @@
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-core</artifactId>
-      <version>6.1.0</version>
+      <version>5.2.3.RELEASE</version>
     </dependency>
 
     <!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-context</artifactId>
-      <version>6.1.0</version>
+      <version>5.2.3.RELEASE</version>
     </dependency>
 
     <!-- https://mvnrepository.com/artifact/com.mysql/mysql-connector-j -->
@@ -51,14 +51,14 @@
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-orm</artifactId>
-      <version>6.1.2</version>
+      <version>5.2.3.RELEASE</version>
     </dependency>
 
     <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
     <dependency>
       <groupId>org.hibernate</groupId>
       <artifactId>hibernate-core</artifactId>
-      <version>6.2.1.Final</version>
+      <version>5.4.2.Final</version>
     </dependency>
 
   </dependencies>

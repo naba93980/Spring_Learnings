@@ -34,7 +34,7 @@
         <property name="sessionFactory" ref="factory"></property>
     </bean>
 
-    <bean class="com.nabajyoti.spring.orm.dao.UserDao" name="studentDao">
+    <bean class="com.nabajyoti.spring.orm.dao.UserDao" name="userDao">
         <property name="hibernateTemplate" ref="hibernateTemplate"></property>
     </bean>
 

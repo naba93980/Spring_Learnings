@@ -9,9 +9,18 @@ public class UserDao {
 
     private HibernateTemplate hibernateTemplate;
 
-    public void getUser(String user){
+    public HibernateTemplate getHibernateTemplate() {
+		return hibernateTemplate;
+	}
+
+	public void setHibernateTemplate(HibernateTemplate hibernateTemplate) {
+		this.hibernateTemplate = hibernateTemplate;
+	}
+
+	public void getUser(String user){
         Object u = hibernateTemplate.get(User.class, user);
         System.out.println(u);
     }
+    
 
 }
